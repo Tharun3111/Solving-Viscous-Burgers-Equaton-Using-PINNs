@@ -1,29 +1,39 @@
-# Viscous Burgers' Equation using PINNs Model Execution steps.
+# Viscous Burgers' Equation using PINNs Model Execution Steps
 
 ## Introduction
-This guide provides quick steps to run the Physics-Informed Neural Network (PINN) for solving the viscous Burgers' Equation, a key model in fluid mechanics.
+This guide outlines the steps to execute the Physics-Informed Neural Network (PINN) for solving the viscous Burgers' Equation, which is a fundamental model in fluid mechanics.
+
+## Dataset
+The required data file "burgers_shock_mu_01_pi.mat" is included in the Data/ directory of this repository.
+
+## Running the Model
+Execute the main script or Jupyter notebook containing the model code to begin the training process. The PINN will output its accuracy and visual results upon completion.
+
+## Visualizations
+The plots generated during execution will be saved as:
+
+- "Burgers.png" for solution visualization
+- "collocation_points_Burgers.png" for collocation point distribution
+  
+## Evaluation
+The model's performance is assessed upon completion of training, with the test error printed as a measure of accuracy.
+
+
+## Support
+For any issues encountered during execution, please reach out via email at: tmalepati@crimson.ua.edu
 
 ## Requirements
-- Python 3.7+
+Before starting, ensure you have the following prerequisites:
+- Python 3.7 or higher
 - TensorFlow 2.x
 - NumPy, Matplotlib, Scipy, pyDOE
 
-Install dependencies using:
+You can install the dependencies using the following command:
 ```bash
 pip install tensorflow numpy matplotlib scipy pyDOE
 
 
-## Dataset
-The required data file `burgers_shock_mu_01_pi.mat` should be placed in the `Data/` directory of the project, which i have uploaded in this repo.
 
-## Running the Model
-To run the model, execute the main script or Jupyter notebook containing the model code. The training process of the PINN will be carried out, and it will output the model's accuracy along with visual results.
 
-## Visualizations
-The resulting plots will be saved as `Burgers.png` for the solution visualization and `collocation_points_Burgers.png` for visualizing the distribution of collocation points.
 
-## Evaluation
-After the training is complete, the model's performance will be evaluated and the test error will be printed as an accuracy measure.
 
-## Issues
-If you encounter any issues,  email to : tmalepati@crimson.ua.edu
