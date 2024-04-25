@@ -1,7 +1,7 @@
-# Burgers' Equation PINN Model Execution Guide
+# Viscous Burgers' Equation using PINNs Model Execution steps.
 
 ## Introduction
-This guide provides quick steps to run the Physics-Informed Neural Network (PINN) for solving the Burgers' Equation, a key model in fluid mechanics.
+This guide provides quick steps to run the Physics-Informed Neural Network (PINN) for solving the viscous Burgers' Equation, a key model in fluid mechanics.
 
 ## Requirements
 - Python 3.7+
